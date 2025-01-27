@@ -1,0 +1,78 @@
+/* Main container styles */
+.home-container {
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Content container styles */
+.content-container {
+  background: rgba(0, 0, 0, 0.75); /* Semi-transparent dark background */
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  width: 90%;
+  max-width: 1200px;
+}
+
+/* Table styles */
+.table thead th {
+  background-color: #f8f9fa !important;
+}
+
+.table td, .table th {
+  vertical-align: middle;
+}
+
+/* Button styles */
+.btn {
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+/* Media Queries */
+
+/* For tablets and small screens */
+@media (max-width: 768px) {
+  .content-container {
+    padding: 20px;
+  }
+
+  .table th, .table td {
+    font-size: 14px;
+  }
+
+  .btn {
+    font-size: 12px;
+    padding: 5px 10px;
+  }
+}
+
+/* For mobile devices */
+@media (max-width: 576px) {
+  .content-container {
+    width: 100%;
+    padding: 15px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  h4 {
+    font-size: 18px;
+  }
+
+  .btn {
+    font-size: 10px;
+    padding: 4px 8px;
+  }
+
+  .table th, .table td {
+    font-size: 12px;
+  }
+}
