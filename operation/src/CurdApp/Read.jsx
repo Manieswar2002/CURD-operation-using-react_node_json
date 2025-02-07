@@ -4,7 +4,7 @@ import axios from 'axios';
 
 function Read() {
   const { id } = useParams(); 
-  const navigate = useNavigate(); 
+  const navigat = useNavigate(); 
   const [data, setData] = useState({}); 
 
   useEffect(() => {
